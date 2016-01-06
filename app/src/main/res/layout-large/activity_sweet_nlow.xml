@@ -1,0 +1,140 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context="com.roboticize.smoothngroove.SweetNLowActivity"
+        android:paddingLeft="0dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1100dp"
+            android:src="@drawable/background_updated"
+            android:scaleType="fitXY"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="39dp"
+            android:layout_alignParentEnd="false" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/header"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitXY"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false" />
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageButton8"
+            android:onClick="Smoothies"
+            android:src="@drawable/sweet_n_low"
+            android:scaleType="fitXY"
+            android:background="#0000"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="540dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView5"
+            android:scaleType="fitXY"
+            android:src="@drawable/jitterbug"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/imageButton8"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:layout_width="540dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView6"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/imageView5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/hula" />
+
+        <ImageView
+            android:layout_width="540dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView7"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/imageView6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/butterfly" />
+
+        <ImageView
+            android:layout_width="540dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView8"
+            android:scaleType="fitXY"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/tango"
+            android:layout_below="@+id/imageView7"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="540dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView9"
+            android:scaleType="fitXY"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/macarena"
+            android:layout_below="@+id/imageView8"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_width="540dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView10"
+            android:scaleType="fitXY"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/mambo"
+            android:layout_below="@+id/imageView9"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="540dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView11"
+            android:scaleType="fitXY"
+            android:src="@drawable/red_nose"
+            android:layout_below="@+id/imageView10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:layout_width="540dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView12"
+            android:scaleType="fitXY"
+            android:src="@drawable/do_it_for_the_vine"
+            android:layout_below="@+id/imageView11"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageView2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/cart_white"
+            android:onClick="shop"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            android:layout_marginTop="5dp" />
+
+    </RelativeLayout>
+</ScrollView>

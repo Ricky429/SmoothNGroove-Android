@@ -1,0 +1,62 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.roboticize.smoothngroove.BrandAboutActivity">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/background_updated"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp"
+        android:layout_alignParentEnd="false" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/header"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false" />
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageButton8"
+        android:onClick="aboutUs"
+        android:src="@drawable/brand_back_button"
+        android:scaleType="fitXY"
+        android:background="#0000"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:id="@+id/imageView4"
+        android:src="@drawable/brand_about"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/cart_white"
+        android:onClick="shop"
+        android:background="#0000"
+        android:scaleType="fitXY"
+        android:layout_marginTop="5dp" />
+
+</RelativeLayout>

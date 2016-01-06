@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SmoothNGroove</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_us">Send</string>
+    <string name="smoothies">Send</string>
+    <string name="smoothieGang">Send</string>
+    <string name="contactUs">Send</string>
+    <string name="Smoothies"></string>
+    <string name="About_Us"></string>
+    <string name="Smoothie_Gang"></string>
+    <string name="Contact_Us"></string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="title_activity_smoothies">SmoothiesActivity</string>
+    <string name="title_activity_smoothie_gang">SmoothieGangActivity</string>
+    <string name="title_activity_contact_us">ContactUsActivity</string>
+    <string name="Home">Home</string>
+    <string name="title_activity_keon_about">KeonAboutActivity</string>
+    <string name="title_activity_brand_about">BrandAboutActivity</string>
+    <string name="title_activity_big_nbuilt">BigNBuiltActivity</string>
+    <string name="title_activity_nergizers">NErgizersActivity</string>
+    <string name="title_activity_slim_ntrim">SlimNTrimActivity</string>
+    <string name="title_activity_sweet_nlow">SweetNLowActivity</string>
+    <string name="share"></string>
+</resources>

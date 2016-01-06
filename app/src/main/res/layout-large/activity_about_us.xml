@@ -1,0 +1,210 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.roboticize.smoothngroove.AboutUsActivity">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="360dp"
+        android:src="@drawable/background_updated"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp"
+        android:layout_alignParentEnd="false"
+        android:layout_below="@+id/imageButton"
+        android:layout_above="@+id/imageButton" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/header"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:id="@+id/imageButton6"
+        android:onClick="keonAbout"
+        android:src="@drawable/keon_button"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:background="#0000"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:paddingLeft="10dp" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:id="@+id/imageButton7"
+        android:onClick="brandAbout"
+        android:src="@drawable/brand_button"
+        android:scaleType="fitXY"
+        android:background="#0000"
+        android:layout_alignTop="@+id/imageButton6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:paddingRight="10dp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:id="@+id/imageView3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/footer"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/imageButton"
+        android:src="@drawable/home_overlay"
+        android:scaleType="fitXY"
+        android:onClick="Home"
+        android:layout_above="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:background="#0000"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:text="@string/about_us"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/about"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/About_Us"
+        android:background="#0000"
+        android:layout_above="@+id/textView2"
+        android:layout_toRightOf="@+id/imageButton"
+        android:layout_toEndOf="@+id/imageButton"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="23dp" />
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:text="@string/smoothies"
+        android:id="@+id/imageButton3"
+        android:onClick="Smoothies"
+        android:src="@drawable/smoothie_overlay"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/Smoothies"
+        android:background="#0000"
+        android:layout_above="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:text="@string/smoothieGang"
+        android:id="@+id/imageButton4"
+        android:onClick="smoothieGang"
+        android:src="@drawable/social_media_overlay"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/Smoothie_Gang"
+        android:background="#0000"
+        android:layout_marginRight="100dp"
+        android:layout_marginEnd="23dp"
+        android:layout_above="@+id/textView4"
+        android:layout_toLeftOf="@+id/imageButton5"
+        android:layout_toStartOf="@+id/imageButton5" />
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:text="@string/contactUs"
+        android:id="@+id/imageButton5"
+        android:onClick="contactUs"
+        android:src="@drawable/contact_us_overlay"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/Contact_Us"
+        android:background="#0000"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="24dp"
+        android:layout_above="@+id/textView4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:id="@+id/textView"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:layout_marginStart="10dp"
+        android:textColor="#68C1EF"
+        android:layout_alignBottom="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:id="@+id/textView2"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:textColor="#F00"
+        android:layout_below="@+id/imageButton5"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_alignStart="@+id/imageButton2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smoothies"
+        android:id="@+id/textView3"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:textColor="#68C1EF"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="#Smoothie gang"
+        android:id="@+id/textView4"
+        android:textSize="12sp"
+        android:textColor="#68C1EF"
+        android:layout_above="@+id/imageView3"
+        android:layout_alignLeft="@+id/imageButton4"
+        android:layout_alignStart="@+id/imageButton4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:id="@+id/textView5"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:textColor="#68C1EF"
+        android:layout_below="@+id/imageButton5"
+        android:layout_alignRight="@+id/imageButton5"
+        android:layout_alignEnd="@+id/imageButton5" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/cart_white"
+        android:onClick="shop"
+        android:background="#0000"
+        android:scaleType="fitXY"
+        android:layout_marginTop="5dp" />
+
+
+</RelativeLayout>
